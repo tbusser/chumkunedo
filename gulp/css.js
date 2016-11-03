@@ -21,6 +21,6 @@ module.exports = function(gulp, config, plugins) {
 	});
 
 	gulp.task('watch:css', function() {
-		gulp.watch(config.src.css + '**/*.scss', ['build:asset:scss']);
+		gulp.watch(config.src.css + '**/*.scss', ['build:asset:css']);
 	});
 };
